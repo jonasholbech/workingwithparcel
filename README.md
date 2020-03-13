@@ -1,8 +1,8 @@
 # 1.Introduction
 
-A. What is Parcel
-B. https://parceljs.org/
-C. Why do we need it
+- What is Parcel
+- https://parceljs.org/
+- Why do we need it
 
 # 2.Installing globally
 
