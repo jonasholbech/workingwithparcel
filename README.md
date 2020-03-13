@@ -47,3 +47,26 @@ F: Add `node_modules/`to `.gitignore`
 # 6.Zero configuration, yeah right
 
 - Static files copy plugin
+- https://www.npmjs.com/package/parcel-plugin-static-files-copy
+- `npm install --save-dev parcel-plugin-static-files-copy`
+- create a dir called `static`
+- place your "static" assets in the folder
+- All static assets are now copied to the build (`dist/`), without the `static/` folder
+
+## Example
+
+```js
+const data = [
+  {
+    i: "1.png"
+  },
+  {
+    i: "2.png"
+  }
+];
+data.forEach(d => {
+  const t = document.createElement("img");
+  t.src = "imgs/" + d.i;
+  document.body.appendChild(t);
+});
+```
