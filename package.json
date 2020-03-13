@@ -1,0 +1,23 @@
+{
+  "name": "workingwithparcel",
+  "version": "1.0.0",
+  "description": "- What is Parcel - https://parceljs.org/ - Why do we need it",
+  "main": "main.js",
+  "scripts": {
+    "start": "parcel *.html --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonasholbech/workingwithparcel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonasholbech/workingwithparcel/issues"
+  },
+  "homepage": "https://github.com/jonasholbech/workingwithparcel#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
