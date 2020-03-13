@@ -2,6 +2,11 @@ h1 {
   color: hotpink;
 }
 
+tr,
+th {
+  display: grid;
+  grid-template-columns: 100px 1fr 1fr;
+}
 body {
-  background: lightblue;
+  font-size: 2rem;
 }

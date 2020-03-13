@@ -7,8 +7,64 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>Hi mom</h1>
-    <p>How are you doing</p>
+    <h1>Pros / Cons</h1>
+    <table border="1">
+      <thead>
+        <tr>
+          <th></th>
+          <th>Pros</th>
+          <th>Cons</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Global</strong></td>
+          <td>
+            <ul class="initiallyHidden">
+              <li>Easy</li>
+              <li>Does not take up a lot of space</li>
+              <li>Navigate to a folder and run</li>
+            </ul>
+          </td>
+          <td>
+            <ul class="initiallyHidden">
+              <li>Harder to update</li>
+              <li>Could be the wrong version</li>
+              <li>You quickly end up with a lot of global packages</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><strong>Local</strong></td>
+          <td>
+            <ul class="initiallyHidden">
+              <li>
+                <code>npm install</code> and everyone has the same version
+              </li>
+              <li>
+                <code>npm install some package</code> gives the latest version
+              </li>
+              <li><strong>Easy to share dependencies</strong></li>
+              <li>
+                Did you mess up? just go back with git, nothing is changed on
+                the OS (or just delete the line in <code>package.json</code>)
+              </li>
+              <li>Clearer documentation</li>
+            </ul>
+          </td>
+          <td>
+            <ul class="initiallyHidden">
+              <li>Installed for each project, takes up space</li>
+              <li>A bit more complicated?</li>
+              <li>SOME tools are meant to be global</li>
+              <li class="initiallyHidden">
+                But that's what "<code>npx</code>" is for
+              </li>
+            </ul>
+          </td>
+        </tr>
+      </tbody>
+    </table>
     <script src="main.js"></script>
   </body>
 </html>
