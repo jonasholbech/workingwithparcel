@@ -6,11 +6,11 @@ C. Why do we need it
 
 # 2.Installing globally
 
-A. An alternative to `live-server`
-B. Install: `npm install -g parcel-bundler`
-C. Running parcel: `parcel *.html` or `parcel index.html`
-D: Strange refreshes? Refresh manually
-E: Add `.cache` to `.gitignore`
+- An alternative to `live-server`
+- Install: `npm install -g parcel-bundler`
+- Running parcel: `parcel *.html` or `parcel index.html`
+- Strange refreshes? Refresh manually
+- Add `.cache` to `.gitignore`
 
 # 3.Installing locally
 
