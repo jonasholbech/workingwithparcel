@@ -41,7 +41,9 @@ F: Add `node_modules/`to `.gitignore`
 
 - `--public-url (or whatever it’s called)`
 - But what about dynamic resources?
-- Static files copy plugin
 - Add build script to `package.json`
-- `"build": "parcel build \*.html --public-url ./"`
-- add `dist/` to `.gitignore`
+- `"build": "parcel build *.html --public-url ./"`
+
+# 6.Zero configuration, yeah right
+
+- Static files copy plugin

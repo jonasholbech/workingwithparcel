@@ -4,7 +4,8 @@
   "description": "- What is Parcel - https://parceljs.org/ - Why do we need it",
   "main": "main.js",
   "scripts": {
-    "start": "parcel *.html --open"
+    "start": "parcel *.html --open",
+    "build": "parcel build *.html --public-url ./"
   },
   "repository": {
     "type": "git",
