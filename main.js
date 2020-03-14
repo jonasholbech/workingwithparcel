@@ -1,4 +1,6 @@
-document.querySelector("h1").textContent = "Here's Jonas";
+import { gallery as myGallery, settings } from "./modules/gallery";
+
+document.querySelector("h1").textContent = settings.meaning;
 
 const data = [
   {
@@ -8,8 +10,5 @@ const data = [
     i: "2.png"
   }
 ];
-data.forEach(d => {
-  const t = document.createElement("img");
-  t.src = "imgs/" + d.i;
-  document.body.appendChild(t);
-});
+
+myGallery(data, document.body);

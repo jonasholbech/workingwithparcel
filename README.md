@@ -70,3 +70,12 @@ data.forEach(d => {
   document.body.appendChild(t);
 });
 ```
+
+# 7.import/export
+
+- Spread code over files to reduce complexity / conflicts
+- re-use code easily
+- split code into logical groups
+- `export` & `import`
+- non-exported functions
+- import as newName
