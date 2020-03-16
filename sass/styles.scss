@@ -1,12 +1,18 @@
 @use 'partials/vars';
 @use 'partials/header';
+@use 'partials/mixins';
 
 body {
   background: vars.$bg-color;
   h1 {
     color: hotpink;
+    @include mixins.flexible();
     &:hover {
       color: blue;
     }
   }
+}
+
+img {
+  @include mixins.defaultBorder();
 }

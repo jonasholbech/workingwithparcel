@@ -1,0 +1,10 @@
+@mixin flexible() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin defaultBorder($width: 1px) {
+  border: $width solid #000;
+  border-radius: 20px;
+}
