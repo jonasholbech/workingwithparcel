@@ -1,7 +1,8 @@
-$bg-color: purple;
+@use 'partials/vars';
+@use 'partials/header';
 
 body {
-  background: $bg-color;
+  background: vars.$bg-color;
   h1 {
     color: hotpink;
     &:hover {

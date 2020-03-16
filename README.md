@@ -102,9 +102,12 @@ data.forEach(d => {
 - The & character
 - Comments
 
-# 11. `@use` & `@mixin`
+# 11. `@use`
 
 - <del>Import</del> / use
+
+# 12. `@mixin`'s
+
 - mixins
 
 ```css
@@ -120,7 +123,7 @@ data.forEach(d => {
 }
 ```
 
-# 12. The rest
+# 13. The rest
 
 - Go learn more on your own
 - A few best practices
