@@ -101,7 +101,9 @@ data.forEach(d => {
 - Nesting
 - The & character
 - Comments
-- Comparison to custom props
+
+# 11. `@use` & `@mixin`
+
 - <del>Import</del> / use
 - mixins
 
@@ -118,7 +120,7 @@ data.forEach(d => {
 }
 ```
 
-# 11. The rest
+# 12. The rest
 
 - Go learn more on your own
 - A few best practices

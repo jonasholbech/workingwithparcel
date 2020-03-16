@@ -1,8 +1,11 @@
 $bg-color: purple;
-h1 {
-  color: hotpink;
-}
 
 body {
   background: $bg-color;
+  h1 {
+    color: hotpink;
+    &:hover {
+      color: blue;
+    }
+  }
 }
