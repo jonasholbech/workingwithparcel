@@ -79,3 +79,50 @@ data.forEach(d => {
 - `export` & `import`
 - non-exported functions
 - import as newName
+
+# 8. Introducing SASS
+
+- What is SASS
+- Quick comparison to CSS
+- Two syntaxes (SASS vs SCSS)
+- - We’re using SCSS (although people just call it SASS)
+- - https://sass-lang.com/
+
+# 9. Using SASS with Parcel
+
+- hooking it up
+- Variables
+- Looking at input and output
+
+# 10. Basic Syntax
+
+- Basic syntax
+- https://devhints.io/sass
+- Nesting
+- The & character
+- Comments
+- Comparison to custom props
+- <del>Import</del> / use
+- mixins
+
+```css
+@mixin flexible() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin defaultBorder($width: 1px) {
+  border: $width solid #000;
+  border-radius: 20px;
+}
+```
+
+# 11. The rest
+
+- Go learn more on your own
+- A few best practices
+- - Don't nest too deeply
+- - Don’t overdo it
+- - Readability > fancyness
+- It's just css
